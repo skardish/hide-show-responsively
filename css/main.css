@@ -17,15 +17,28 @@ html {
 }
 
 body {
-
+ text-align: center;
 }
 
 img {
+  display: inline-block;
+  width: 100%;
+}
 
+img:nth-child(even) {
+  display: none;
 }
 
 @media only screen and (min-width: 25em) {
 
+  img {
+    display: inline-block;
+    width: 47%;
+  }
+
+  img:nth-child(even) {
+    display: inline-block;
+  }
 }
 
 @media only screen and (min-width: 38em) {
