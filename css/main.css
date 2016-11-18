@@ -43,6 +43,15 @@ img:nth-child(even) {
 
 @media only screen and (min-width: 38em) {
 
+  img {
+    display: inline-block;;
+    width: 32%;
+  }
+
+  img:last-child {
+    display: none;
+  }
+
 }
 
 @media only screen and (min-width: 60em) {
